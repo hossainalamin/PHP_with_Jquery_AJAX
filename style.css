@@ -1,0 +1,106 @@
+#body {
+	background-color: aliceblue;
+	min-height: 300px;
+	margin-left: 0 auto solid #ddd;
+	text-align: center;
+}
+
+#main {
+	margin-left: 140px;
+}
+
+#header {
+	background-color: aqua;
+	height: 100px;
+	width: 1000px;
+	font-size: 22px;
+	text-align: center;
+}
+
+#table-load {
+	background-color: antiquewhite;
+	max-height: 600px;
+}
+
+#form-load {
+	background-color: antiquewhite;
+	height: 60px;
+	margin-bottom: 5px;
+}
+
+#name {
+	height: 20px;
+	margin-right: 5px;
+}
+
+#email {
+	height: 20px;
+	margin-right: 5px;
+}
+
+#skill {
+	height: 20px;
+	margin-right: 5px;
+}
+
+#search {
+	height: 20px;
+	margin-right: 5px;
+}
+
+#load-button {
+	font-size: 30px;
+}
+
+#modal {
+	background: rgba(0, 0, 0, 0.7);
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	position: fixed;
+	display: none;
+}
+
+#modal-form {
+	background-color: white;
+	width: 30%;
+	position: relative;
+	top: 20%;
+	left: 400px;
+	padding: 15px;
+	border-radius: 4px;
+}
+
+#pagination {
+	margin-top: 5px;
+}
+.active{
+	background-color: blue;
+}
+a {
+	border: 2px solid white;
+	margin-left: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-radius: 3px;
+	margin-top: 10px;
+	background-color: aqua;
+	color: white;
+	text-decoration: none;
+}
+
+#close {
+	background: red;
+	width: 30px;
+	color: white;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 50%;
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	cursor: pointer;
+}
